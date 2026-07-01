@@ -1,0 +1,23 @@
+# ── 대용량 원본/중복 (GitHub 업로드 제외, 로컬 보관용) ──
+# 주의: 맨 앞 / 는 "최상위(repo 루트)에서만" 매칭 → 하위폴더 01/02의 data/ 는 정상 업로드됨
+_local_excluded_대용량원본/
+/data/
+
+# 100MB 초과·불필요 대용량
+*.zip
+aladin_reviews_clean_3col.csv
+aladin_reviews_clean_part*.csv
+
+# 파이썬 캐시/환경
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
